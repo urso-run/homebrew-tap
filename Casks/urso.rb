@@ -3,7 +3,7 @@ cask "urso" do
   name "urso"
   desc "Urso is a GitHub Actions runner manager"
   homepage "https://urso.run"
-  version "0.2.5"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "urso" do
   on_macos do
     on_intel do
       url "https://github.com/urso-run/urso/releases/download/v#{version}/urso_Darwin_x86_64.tar.gz"
-      sha256 "1eae2e91f02f273976e6a146e2ac7d8dd374c97556dd926549af663756260c34"
+      sha256 "b587b741101fd73cc543ab81d9301dceacc3618e45dfd36c8c427f72916af864"
     end
     on_arm do
       url "https://github.com/urso-run/urso/releases/download/v#{version}/urso_Darwin_arm64.tar.gz"
-      sha256 "51807ad9344e784a1de1d828a669e6bed036304e60ac85bdbdd012e19563f1bd"
+      sha256 "c595af581def7e65c9596d582c055e619aa19eb26bc37aeaf1f58813d0cafda4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/urso-run/urso/releases/download/v#{version}/urso_Linux_x86_64.tar.gz"
-      sha256 "fd3da112751fff2a8126c8fc3a9b735f82cebca72662043f71f78713f26506a1"
+      sha256 "9433a331821e1f2ad335b586083b9bbcc73570d8d46f429beb1b158ca3e2f98f"
     end
     on_arm do
       url "https://github.com/urso-run/urso/releases/download/v#{version}/urso_Linux_arm64.tar.gz"
-      sha256 "2c1ecdaa42ce856e89bf5c1133432f80362f4e18abb30fd8361844bf22aa103d"
+      sha256 "2b93dbaafe06a7e3502fb474fb78c72147b96147da0c38b9647b01bd9867e69e"
     end
   end
 
